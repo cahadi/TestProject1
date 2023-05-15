@@ -18,9 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="TestMeLibrary">
-      <HintPath>..\..\..\..\Downloads\Задание1\TestMeLibrary.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\ClassLibrary1\ClassLibrary1.csproj" />
   </ItemGroup>
 
 </Project>
